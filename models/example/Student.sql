@@ -1,5 +1,5 @@
 with sample_store as (
-select * from{{ source('Student', 'students') }}
+select * from{{ source('example', 'students') }}
 ),
 final as(
     select * from sample_store
