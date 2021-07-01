@@ -2,7 +2,7 @@
 version: 2
 
 sources:
-  - name: student
+  - name: example
     description: 'First DBT'
     project: new-demo-318508
     dataset: Demo
