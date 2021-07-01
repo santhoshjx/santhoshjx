@@ -20,12 +20,11 @@ sources:
               - not_null
               - unique
               
-     tables:
-      - name: students1
-        columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-
-              - not_null
-              - unique
+    tables:
+     - name: students1
+       columns:
+         - name: id
+           description: "The primary key for this table"
+           tests:
+             - not_null
+             - unique
